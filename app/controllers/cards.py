@@ -80,7 +80,7 @@ def uri_process(e):
     return c
 
 @blueprint.route('/<spotify_uri>/<layout_name>/')
-def template1(layout_name, spotify_uri=None):
+def view_card(layout_name, spotify_uri=None):
     default_settings = {
         "title": "Card Title",
         "subtitle": "Card Subtitle",

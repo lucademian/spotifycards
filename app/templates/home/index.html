@@ -4,10 +4,9 @@
 <div class="bg-gray-light border-bottom border-gray-light">
   <div class="container text-center py-5 mb-4">
     <div class="my-4 card-display">
-      <embed src="http://localhost:5000/cards/spotify:track:6U0FIYXCQ3TGrk4tFpLrEA/template1.svg/" alt="SUGAR - BROCKHAMPTON">
-      <!-- <embed src="http://localhost:5000/cards/spotify:track:00ko9WaS4jOX1kEk3gvHjf/template2.svg/" alt="Hot Shower - Chance the Rapper"> -->
-      <embed src="http://localhost:5000/cards/spotify:track:6BRW1hLPP14wpaxJF8YTWe/template2.svg/" alt="Hallucinogenics - Matt Maeson">
-      <embed src="http://localhost:5000/cards/spotify:track:2t0Xu0fHxVwITcosWU0RKe/template1.svg/" alt="Ocean Eyes - Dakota Deyoc">
+      <embed src="{{ url_for('cards.view_card', spotify_uri='spotify:track:6U0FIYXCQ3TGrk4tFpLrEA', layout_name='template1.svg') }}" alt="SUGAR - BROCKHAMPTON">
+      <embed src="{{ url_for('cards.view_card', spotify_uri='spotify:track:6BRW1hLPP14wpaxJF8YTWe', layout_name='template2.svg') }}" alt="Hallucinogenics - Matt Maeson">
+      <embed src="{{ url_for('cards.view_card', spotify_uri='spotify:track:2t0Xu0fHxVwITcosWU0RKe', layout_name='template1.svg') }}" alt="Ocean Eyes - Dakota Deyoc">
     </div>
     <div class="mt-3 mb-4">
       <h1 class="h1 mb-0">Spotify Cards</h1>
