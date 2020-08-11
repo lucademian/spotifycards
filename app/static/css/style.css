@@ -1,0 +1,38 @@
+/* Custom stylesheet */
+
+.nav-link:hover {
+  color: inherit;
+  text-decoration: none;
+  opacity: .75;
+}
+
+.link-reset:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.octicon {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.spotify-login {
+  background: #1aa34a;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 5px;
+  display: inline-block;
+}
+.spotify-login:hover {
+  color: #FFF;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.card-display embed {
+  height: 500px;
+  margin: 0px 10px;
+}
